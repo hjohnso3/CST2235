@@ -7,8 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:rowCount="12"
-    android:columnCount="31"
+    android:rowCount="2"
+    android:columnCount="2"
     tools:context="com.example.prometheus.lab1.NewListItemsActivity">
 
     <RadioButton
@@ -16,8 +16,8 @@
         android:layout_height="wrap_content"
         android:text="Button 1"
         android:id="@+id/radioButton"
-        android:layout_row="3"
-        android:layout_column="15"
+        android:layout_row="0"
+        android:layout_column="0"
         android:checked="false" />
 
     <CheckBox
@@ -25,23 +25,23 @@
         android:layout_height="wrap_content"
         android:text="New CheckBox"
         android:id="@+id/checkBox"
-        android:layout_row="5"
-        android:layout_column="15" />
+        android:layout_row="0"
+        android:layout_column="1" />
 
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enable Something"
         android:id="@+id/switch1"
-        android:layout_row="7"
-        android:layout_column="15" />
+        android:layout_row="1"
+        android:layout_column="0" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
-        android:layout_row="11"
-        android:layout_column="15"
+        android:layout_row="1"
+        android:layout_column="1"
         android:text="Button 2"
         android:background="@android:drawable/btn_star_big_on" />
 
